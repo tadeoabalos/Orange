@@ -1,0 +1,181 @@
+html, body {
+    margin: 0;
+    top: 0;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #ccc;
+    color: #fff;
+}
+
+#nav-bar {
+    height: 5vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar h1 a {
+  margin-left: 15px;
+    color: #FF8C00;
+}
+
+#busqueda {
+    width: 30vw;
+    height: 40%;
+    padding: 8px;
+    border: none;
+    margin-right: 8px;
+    background-color: orange;
+    color: #000;
+}
+
+#libros {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    width: 100%;
+}
+
+.buscar-btn {
+  background-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    color: orange;
+    height: 10%;
+    cursor: pointer;
+    height: 30px;
+}
+
+.libro {
+    width: 15vw;
+    height: 400px;
+    text-align: center;
+    background-color: #000;
+    padding: 20px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    color: orange;
+}
+
+.ven_visible
+  {
+      visibility: visible;
+  }
+
+.ven_invisible
+  {
+      visibility: hidden;
+  }
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    color: #000;
+}
+
+#ventanamod, #ventanaalt {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    width: 60%;
+    height: 35%;
+    border-radius: 8px;
+    color: #FF8C00;
+    border-style: solid;
+    border-color: orange;
+    border-width: 1px;
+  }
+
+  #ventanamod input {
+    background-color: orange;
+    max-width: 20%;
+    margin: 5px;
+  }
+
+  #ventanamod label {
+    margin-left: 20px;
+  }
+
+  #ventanaalt input {
+    background-color: orange;
+    margin: 5px;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .editar {
+    background-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    color: orange;
+    width: 49%;
+    height: 10%;
+    cursor: pointer;
+  }
+
+  .editar:hover {
+    background-color: orange;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    color: #000;
+  }
+
+  .baja {
+    background-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    color: orange;
+    width: 30%;
+    height: 10%;
+    cursor: pointer;
+  }
+
+  .baja:hover {
+    background-color: orange;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    color: #000;
+  }
+
+  .alta {
+    background-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    color: orange;
+    cursor: pointer;
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  .botonven {
+    background-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: orange;
+    color: orange;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
